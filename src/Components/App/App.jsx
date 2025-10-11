@@ -2,7 +2,7 @@ import React from "react";
 
 const App = ({ app }) => {
   return (
-    <div className="p-5 bg-white rounded-xl flex flex-col gap-2 items-center justify-between transition-transform duration-300 ease-in-out hover:-translate-y-1 shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1)] hover:shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)]">
+    <div className="cursor-pointer p-5 bg-white rounded-xl flex flex-col gap-2 items-center justify-between transition-transform duration-300 ease-in-out hover:-translate-y-1 shadow-[0_4px_6px_-1px_rgba(0,0,0,0.1)] hover:shadow-[0_10px_15px_-3px_rgba(0,0,0,0.1)]">
       <div
         className="w-full h-[200px] bg-cover bg-center border-[1px] border-[#e9e9e9] rounded-xl"
         style={{ backgroundImage: `url(${app.image})` }}
