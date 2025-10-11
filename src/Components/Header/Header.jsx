@@ -1,16 +1,18 @@
 import React from "react";
+import { Link, NavLink } from "react-router";
+import "../../App.css";
 
 const Header = () => {
   const links = (
     <>
       <li>
-        <a>Home</a>
+        <NavLink to="/">Home</NavLink>
       </li>
       <li>
-        <a>Apps</a>
+        <NavLink to="/apps">Apps</NavLink>
       </li>
       <li>
-        <a>Installation</a>
+        <NavLink to="/installed">Installation</NavLink>
       </li>
     </>
   );
@@ -39,26 +41,32 @@ const Header = () => {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow"
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow flex flex-col gap-4"
             >
               {links}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl ">
-            <img className="w-[35px]" src="/assets/logo.png"></img>
+          <Link
+            className="btn btn-link no-underline hover:no-underline text-xl"
+            href="/"
+          >
+            <img className="w-[35px]" src="/assets/logo.png" />
             <span className="bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
               HERO.IO
             </span>
-          </a>
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">{links}</ul>
+          <ul className="menu menu-horizontal px-1 flex gap-2">{links}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white">
+          <Link
+            className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white"
+            to="https://github.com/dhafnanbd"
+          >
             <img className="w-5 stroke-white" src="/assets/github.svg" alt="" />
-            Contribute
-          </a>
+            Contribution
+          </Link>
         </div>
       </div>
     </div>

@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://s3-eu-west-1.amazonaws.com/tpd/logos/6720c462fa8fb942dcd6b42e/0x0.png",
+    "title": "Chatly",
+    "companyName": "BrightCode Labs",
+    "id": 1,
+    "description": "A modern chat and messaging app with encryption.",
+    "size": 52.3,
+    "reviews": 1245,
+    "ratingAvg": 4.6,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 45 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 570 }
+    ]
+  },
+  {
+    "image": "https://pbs.twimg.com/profile_images/577559911711711232/qlRRIwSI_400x400.jpeg",
+    "title": "FitJourney",
+    "companyName": "HealthWorks",
+    "id": 2,
+    "description": "Track workouts, nutrition and progress seamlessly.",
+    "size": 78.4,
+    "reviews": 2034,
+    "ratingAvg": 4.3,
+    "downloads": 750000,
+    "ratings": [
+      { "name": "1 star", "count": 60 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 924 }
+    ]
+  },
+  {
+    "image": "https://snapcart.global/wp-content/uploads/2020/11/Logo200.png",
+    "title": "SnapCart",
+    "companyName": "QuickShop Inc.",
+    "id": 3,
+    "description": "Scan and shop – your mobile grocery solution.",
+    "size": 66.7,
+    "reviews": 890,
+    "ratingAvg": 4.1,
+    "downloads": 320000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 295 }
+    ]
+  },
+  {
+    "image": "https://logopond.com/logos/79bbdb1f43fe16bb0cc2f2e6d338493e.png",
+    "title": "TravelMate",
+    "companyName": "Wanderlust Co.",
+    "id": 4,
+    "description": "All‑in‑one travel planner & diary.",
+    "size": 89.2,
+    "reviews": 1578,
+    "ratingAvg": 4.7,
+    "downloads": 620000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 928 }
+    ]
+  },
+  {
+    "image": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/3ea80ddb7d399070307e",
+    "title": "LinguaMax",
+    "companyName": "EduBright",
+    "id": 5,
+    "description": "Learn languages with interactive lessons.",
+    "size": 120.5,
+    "reviews": 3012,
+    "ratingAvg": 4.8,
+    "downloads": 1100000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 950 },
+      { "name": "5 star", "count": 1812 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw5RHjnD2jnIm3pldiqBldxPSubq_IIvfZWg&s",
+    "title": "SnapClean",
+    "companyName": "HomeEase",
+    "id": 6,
+    "description": "Book home cleaning services on demand.",
+    "size": 33.9,
+    "reviews": 780,
+    "ratingAvg": 4.2,
+    "downloads": 210000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 350 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQhA_1KFUo-_5sryQ4-JB0tnk5yjRRqKaBsZlRRIPLRFzwcp8451cg2sq4ShAUyUD-kAA&usqp=CAU",
+    "title": "MindSpace",
+    "companyName": "ZenApps",
+    "id": 7,
+    "description": "Meditation, sleep stories, stress relief.",
+    "size": 45.6,
+    "reviews": 1450,
+    "ratingAvg": 4.5,
+    "downloads": 430000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 650 }
+    ]
+  },
+  {
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/95/b2/a5/95b2a53f-4d86-64bb-6ed2-559ff3f2bab7/AppIcon-0-0-1x_U007emarketing-0-0-0-10-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/1200x630wa.png",
+    "title": "FoodieFind",
+    "companyName": "TastyTech",
+    "id": 8,
+    "description": "Discover restaurants & food deals near you.",
+    "size": 55.1,
+    "reviews": 1998,
+    "ratingAvg": 4.4,
+    "downloads": 970000,
+    "ratings": [
+      { "name": "1 star", "count": 35 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1043 }
+    ]
+  },
+  {
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/51/61/8f/51618f1b-d6d1-8f6b-304d-011b70f9175b/AppIcon-0-1x_U007emarketing-0-0-85-220-10.png/1200x630wa.png",
+    "title": "PhotoBlend",
+    "companyName": "PixelCraft",
+    "id": 9,
+    "description": "Blend and edit photos with creative effects.",
+    "size": 67.8,
+    "reviews": 1104,
+    "ratingAvg": 4.2,
+    "downloads": 540000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 434 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/2RZtaPDAcKJ5yeUF4D_zG94xZU8cDBKJG0QYhNsPNalcQq00WUHOf3oXd9zHNkxKBCQ",
+    "title": "SafePay",
+    "companyName": "SecureFin",
+    "id": 10,
+    "description": "Mobile payments & budgeting in one place.",
+    "size": 50.0,
+    "reviews": 2400,
+    "ratingAvg": 4.7,
+    "downloads": 850000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 1500 }
+    ]
+  },
+  {
+    "image": "https://images.sftcdn.net/images/t_app-cover-s,f_auto/p/7cdec1a9-ad7e-48cd-a7ed-3e2278a522a7/3087872575/newspulse-launcher-screenshot",
+    "title": "NewsPulse",
+    "companyName": "InfoWave",
+    "id": 11,
+    "description": "Personalized news & trending topics.",
+    "size": 36.2,
+    "reviews": 1320,
+    "ratingAvg": 4.3,
+    "downloads": 380000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 515 }
+    ]
+  },
+  {
+    "image": "https://www.southsidedistribution.com.au/assets/thumbL/6976912350691.jpg?20240828221219",
+    "title": "RideNow",
+    "companyName": "MoveIt",
+    "id": 12,
+    "description": "On‑demand ride hailing & scheduling.",
+    "size": 71.4,
+    "reviews": 1750,
+    "ratingAvg": 4.5,
+    "downloads": 670000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 830 }
+    ]
+  },
+  {
+    "image": "https://images.vexels.com/media/users/3/230209/raw/58b62ac76a051937ba4fc803ce988889-pet-care-logo-template.jpg",
+    "title": "PetCare",
+    "companyName": "FurryFriends Inc.",
+    "id": 13,
+    "description": "Pet health, reminders & care tracker.",
+    "size": 28.5,
+    "reviews": 920,
+    "ratingAvg": 4.1,
+    "downloads": 210000,
+    "ratings": [
+      { "name": "1 star", "count": 15 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 130 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 355 }
+    ]
+  },
+  {
+    "image": "https://images.squarespace-cdn.com/content/v1/5f99b7932a3e654c26fd0c52/1698777935756-SJ09LXLUHX496MNO1QVW/StackedLogo+FB+-+Andrea+Taylor.png",
+    "title": "Weatherly",
+    "companyName": "SkyCast",
+    "id": 14,
+    "description": "Detailed weather & forecasts with alerts.",
+    "size": 22.7,
+    "reviews": 1580,
+    "ratingAvg": 4.4,
+    "downloads": 590000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 785 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/bookshelf-icon-vector-template-illustration-logo-design_942802-3005.jpg",
+    "title": "BookShelf",
+    "companyName": "ReadMore",
+    "id": 15,
+    "description": "eBook reader with personal library sync.",
+    "size": 48.9,
+    "reviews": 2200,
+    "ratingAvg": 4.6,
+    "downloads": 780000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 800 },
+      { "name": "5 star", "count": 1145 }
+    ]
+  },
+  {
+    "image": "https://images-platform.99static.com/Bmj0GUzo6dy9v3UcIBV5ziNhCm4=/0x0:1280x1280/500x500/top/smart/99designs-contests-attachments/81/81448/attachment_81448731",
+    "title": "SleepWell",
+    "companyName": "Restful Tech",
+    "id": 16,
+    "description": "Sleep tracker, white noise & smart alarms.",
+    "size": 39.3,
+    "reviews": 1340,
+    "ratingAvg": 4.3,
+    "downloads": 410000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 35 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 550 },
+      { "name": "5 star", "count": 585 }
+    ]
+  },
+  {
+    "image": "https://file.aiquickdraw.com/imgcompressed/img/compressed_cd19020ec71f136aceec16daa2536778.webp",
+    "title": "TaskFlow",
+    "companyName": "ProductiveApps",
+    "id": 17,
+    "description": "Task manager & productivity booster.",
+    "size": 47.5,
+    "reviews": 1900,
+    "ratingAvg": 4.5,
+    "downloads": 640000,
+    "ratings": [
+      { "name": "1 star", "count": 30 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 200 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 940 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/learn-math-pencil-icon-vector-illustration-app-web-design_598213-5172.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "LearnMath",
+    "companyName": "EduBright",
+    "id": 18,
+    "description": "Interactive math lessons & quizzes.",
+    "size": 54.8,
+    "reviews": 1680,
+    "ratingAvg": 4.7,
+    "downloads": 850000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 25 },
+      { "name": "3 star", "count": 150 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 885 }
+    ]
+  },
+  {
+    "image": "https://thumbs.dreamstime.com/b/icon-language-translation-chat-bubbles-communication-web-logo-vector-illustration-150665631.jpg",
+    "title": "LanguageChat",
+    "companyName": "BrightTalk",
+    "id": 19,
+    "description": "Chat with native speakers in different languages.",
+    "size": 70.2,
+    "reviews": 1400,
+    "ratingAvg": 4.4,
+    "downloads": 430000,
+    "ratings": [
+      { "name": "1 star", "count": 25 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 180 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 665 }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZO7N5F-uCQDz4SWfmN9Ly4iV9KPuOkI_7tw&s",
+    "title": "GardenPal",
+    "companyName": "GreenThumb",
+    "id": 20,
+    "description": "Plant care & garden planner app.",
+    "size": 26.4,
+    "reviews": 820,
+    "ratingAvg": 4.2,
+    "downloads": 170000,
+    "ratings": [
+      { "name": "1 star", "count": 10 },
+      { "name": "2 star", "count": 20 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 300 },
+      { "name": "5 star", "count": 390 }
+    ]
+  }
+]

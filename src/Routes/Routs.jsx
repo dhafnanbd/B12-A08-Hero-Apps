@@ -1,8 +1,9 @@
-import React from "react";
+import React, { Component, Suspense } from "react";
 import { createBrowserRouter } from "react-router";
 import Root from "../Pages/Root/Root";
 import Error from "../Pages/Error/Error";
 import Home from "../Pages/Home/Home";
+import Apps from "../Pages/Apps/Apps";
 
 const router = createBrowserRouter([
   {
@@ -12,9 +13,16 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        path: "/",
         Component: Home,
-        errorElement: <Error></Error>,
+      },
+      {
+        path: "/apps",
+        loader: () => fetch("./data.json"),
+        Component: Apps,
+      },
+      {
+        path: "*",
+        Component: Error,
       },
     ],
   },
