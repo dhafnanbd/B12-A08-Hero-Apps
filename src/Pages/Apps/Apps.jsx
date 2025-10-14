@@ -3,14 +3,13 @@ import App from "../../Components/App/App";
 import useApps from "../../Hooks/useApps";
 
 const Apps = () => {
-  const { allApps } = useApps();
+  const { allApps, loading } = useApps();
   const [search, setSearch] = useState("");
   const term = search.trim().toLowerCase();
+  if (loading) return <p>Loading...</p>;
   const searchedApps = term
     ? allApps.filter((app) => app.title.toLowerCase().includes(term))
     : allApps;
-
-  console.log(searchedApps);
 
   return (
     <div className="flex flex-col gap-5 text-center p-10 bg-[#f5f5f5]">
