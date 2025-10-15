@@ -2,9 +2,11 @@ import React from "react";
 import useApps from "../../Hooks/useApps";
 import App from "../App/App";
 import { Link } from "react-router";
+import FeaturedAppSkeleton from "../../Components/App/FeaturedAppSkeleton";
 
 const FeaturedApps = () => {
-  const { allApps } = useApps();
+  const { allApps, loading } = useApps();
+  if (loading) return <FeaturedAppSkeleton></FeaturedAppSkeleton>;
   const featuredApps = allApps.slice(0, 8);
   return (
     <div className="bg-[#f5f5f5] p-10 text-center flex flex-col gap-5 items-center ">

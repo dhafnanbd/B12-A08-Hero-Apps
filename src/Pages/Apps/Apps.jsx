@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import App from "../../Components/App/App";
 import useApps from "../../Hooks/useApps";
+import AppSkeleton from "../../Components/App/AppSkeleton";
 
 const Apps = () => {
   const { allApps, loading } = useApps();
   const [search, setSearch] = useState("");
   const term = search.trim().toLowerCase();
-  if (loading) return <p>Loading...</p>;
+  if (loading) return <AppSkeleton></AppSkeleton>;
   const searchedApps = term
     ? allApps.filter((app) => app.title.toLowerCase().includes(term))
     : allApps;

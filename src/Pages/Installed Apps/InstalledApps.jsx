@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import InstalledAppCard from "../../Components/Installed App Card/InstalledAppCard";
+import { toast } from "react-toastify";
 
 const InstalledApps = () => {
   const [installedList, setInstalledList] = useState([]);
@@ -21,7 +22,8 @@ const InstalledApps = () => {
     else return [...installedList];
   })();
 
-  const handleUninstall = (id) => {
+  const handleUninstall = (id, title) => {
+    toast.warning(`${title} Uninstalled!`);
     const installedApps = JSON.parse(localStorage.getItem("installed"));
     const updatedAppsList = installedApps.filter((app) => app.id !== id);
     setInstalledList(updatedAppsList);

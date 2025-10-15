@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useParams } from "react-router";
 import useApps from "../../../Hooks/useApps";
 import RatingChart from "../../../Components/Rating Chart/RatingChart";
+import { toast } from "react-toastify";
 
 const AppDetails = () => {
   const currentId = useParams().id;
@@ -31,6 +32,7 @@ const AppDetails = () => {
   } = currentApp;
 
   const handleInstall = () => {
+    toast.success(`${title} Installed!`);
     let updatedInstalledApps = [];
     if (installedApps) {
       if (isInstalled) {
