@@ -61,6 +61,7 @@ const Header = () => {
         </div>
         <div className="navbar-end">
           <Link
+            target="_blank"
             className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white"
             to="https://github.com/dhafnanbd"
           >

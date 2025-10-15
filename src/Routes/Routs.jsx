@@ -31,13 +31,13 @@ const router = createBrowserRouter([
         Component: InstalledApps,
       },
       {
-        path: "*",
+        path: "/*",
         Component: Error,
       },
     ],
   },
   {
-    path: "*",
+    path: "/*",
     Component: Error,
   },
 ]);

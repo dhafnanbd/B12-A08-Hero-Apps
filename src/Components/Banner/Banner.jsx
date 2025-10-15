@@ -23,11 +23,15 @@ const Banner = () => {
             <div className="flex gap-4 justify-center">
               <button className="btn btn-outline border-[#8f8f8f]">
                 <img className="w-4" src="../assets/google play.png" alt="" />
-                <Link to="https://play.google.com/store">Google Play</Link>
+                <Link target="_blank" to="https://play.google.com/store">
+                  Google Play
+                </Link>
               </button>
               <button className="btn btn-outline border-[#8f8f8f]">
                 <img className="w-4" src="../assets/app store.png" alt="" />
-                <Link to="https://www.apple.com/app-store/">App Store</Link>
+                <Link target="_blank" to="https://www.apple.com/app-store/">
+                  App Store
+                </Link>
               </button>
             </div>
           </div>
