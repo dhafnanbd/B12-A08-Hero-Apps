@@ -15,7 +15,7 @@ const App = ({ app }) => {
           <button className="btn btn-soft text-[#00D390] bg-[#F1F5E8] flex">
             <img
               className="h-4 w-4 flex"
-              src="/assets/icon-downloads.png"
+              src="../assets/icon-downloads.png"
               alt=""
             />
             {`${app.downloads / 1000000} M`}
@@ -23,7 +23,7 @@ const App = ({ app }) => {
           <button className="btn btn-soft text-[#FF8811] bg-[#F1F5E8] flex">
             <img
               className="h-4 w-4 flex"
-              src="/assets/icon-ratings.png"
+              src="../assets/icon-ratings.png"
               alt=""
             />
             {app.ratingAvg}

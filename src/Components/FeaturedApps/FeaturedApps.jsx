@@ -19,7 +19,7 @@ const FeaturedApps = () => {
           <App key={app.id} app={app}></App>
         ))}
       </div>
-      <a href="/apps">
+      <a href="../apps">
         <button className="btn btn-lg bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white">
           Show All
         </button>

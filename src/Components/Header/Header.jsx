@@ -50,7 +50,7 @@ const Header = () => {
             className="btn btn-link no-underline hover:no-underline text-xl"
             href="/"
           >
-            <img className="w-[35px]" src="/assets/logo.png" />
+            <img className="w-[35px]" src="../assets/logo.png" />
             <span className="bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
               HERO.IO
             </span>
@@ -64,7 +64,11 @@ const Header = () => {
             className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white"
             to="https://github.com/dhafnanbd"
           >
-            <img className="w-5 stroke-white" src="/assets/github.svg" alt="" />
+            <img
+              className="w-5 stroke-white"
+              src="../assets/github.svg"
+              alt=""
+            />
             Contribution
           </Link>
         </div>
