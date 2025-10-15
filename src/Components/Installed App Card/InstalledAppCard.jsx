@@ -1,7 +1,7 @@
 import React from "react";
 
-const InstalledAppCard = ({ app }) => {
-  const { image, title, size, ratingAvg, downloads } = app;
+const InstalledAppCard = ({ app, handleUninstall }) => {
+  const { image, title, size, ratingAvg, downloads, id } = app;
   return (
     <div className="cursor-pointer p-4 bg-white rounded-xl flex gap-5 items-center justify-between border-[1px] border-white hover:border-[#c2c2c2]">
       <div className="flex gap-5">
@@ -28,7 +28,12 @@ const InstalledAppCard = ({ app }) => {
           </div>
         </div>
       </div>
-      <button className="btn btn-primary text-end">Uninstall</button>
+      <button
+        onClick={() => handleUninstall(id)}
+        className="btn btn-primary text-end"
+      >
+        Uninstall
+      </button>
     </div>
   );
 };

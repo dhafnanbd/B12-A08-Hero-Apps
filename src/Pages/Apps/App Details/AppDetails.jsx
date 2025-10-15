@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useParams } from "react-router";
 import useApps from "../../../Hooks/useApps";
+import RatingChart from "../../../Components/Rating Chart/RatingChart";
 
 const AppDetails = () => {
   const currentId = useParams().id;
@@ -12,7 +13,6 @@ const AppDetails = () => {
   if (loading) return <p>Loading...</p>;
 
   const installedApps = JSON.parse(localStorage.getItem("installed"));
-  console.log(installedApps);
   if (installedApps) {
     const status = installedApps.some(({ id }) => id == currentApp.id);
     isInstalled = status;
@@ -27,6 +27,7 @@ const AppDetails = () => {
     downloads,
     size,
     description,
+    ratings,
   } = currentApp;
 
   const handleInstall = () => {
@@ -80,19 +81,23 @@ const AppDetails = () => {
               <h4 className="text-4xl font-extrabold">{reviews / 1000} K</h4>
             </div>
           </div>
-          <button onClick={handleInstall} className="btn btn-primary">
+          <button
+            disabled={isInstalled ? "disabled" : ""}
+            onClick={handleInstall}
+            className="btn btn-primary"
+          >
             {isInstalled ? "Installed" : `Install Now ${size} MB`}
           </button>
         </div>
       </div>
       <hr className="text-gray-300 w-full" />
       <div>
-        <h4 className="text-xl font-semibold text-gray-500">Ratings</h4>
-        <p>{description}</p>
+        <h4 className="text-xl font-semibold text-[#001931]">Ratings</h4>
+        <RatingChart ratings={ratings}></RatingChart>
       </div>
       <hr className="text-gray-300 w-full" />
       <div>
-        <h4 className="text-xl font-semibold text-gray-500">Ratings</h4>
+        <h4 className="text-xl font-semibold text-[#001931]">Description</h4>
         <p>{description}</p>
       </div>
     </div>
